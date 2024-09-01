@@ -16,7 +16,7 @@ You can download the ood version of  CMU-MOSI and CMU-MOSEI datasets in https://
 python main.py
 ```
 
-## Environment Requirement
+## Environment Requirements
 
 python == 3.8.8
 
