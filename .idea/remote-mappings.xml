@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteMappingsManager">
+    <list>
+      <list>
+        <remote-mappings server-id="python@sftp://amax@192.168.1.239:22/home/amax/anaconda3/envs/env_zjl_MMIM/bin/python">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$" remote-root="/home/amax/cjl/MMIM/ALBEF_OGM_Simple" />
+            </list>
+          </settings>
+        </remote-mappings>
+        <remote-mappings server-id="python@sftp://amax@192.168.1.191:22/home/amax/anaconda3/envs/cjl_env/bin/python">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$" remote-root="/home/amax/cjl/MMIM/GenDebias" />
+            </list>
+          </settings>
+        </remote-mappings>
+        <remote-mappings server-id="python@sftp://amax@192.168.1.239:22/home/amax/anaconda3/envs/env_super/bin/python">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$" remote-root="/home/cjl/anaconda3/envs/TeRF/bin/python" />
+            </list>
+          </settings>
+        </remote-mappings>
+        <remote-mappings server-id="python@sftp://cjl@192.168.1.239:22/home/cjl/anaconda3/envs/TeRF/bin/python3" />
+      </list>
+    </list>
+  </component>
+</project>
