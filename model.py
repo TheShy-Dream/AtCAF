@@ -234,9 +234,9 @@ class AtCAF(nn.Module):
             maskV = self.gen_mask(visual.transpose(0,1),v_len)
             maskA = self.gen_mask(acoustic.transpose(0,1),a_len)
         # gen_npy(enc_word.mean(dim=1).cpu(), self.hp.dataset, n_clusters=25)
-        # gen_npy(enc_word.mean(dim=1).cpu(), self.hp.dataset, n_clusters=50)  # 聚类生成
-        # gen_npy(enc_word.mean(dim=1).cpu(), self.hp.dataset, n_clusters=100)  # 聚类生成
-        # gen_npy(enc_word.mean(dim=1).cpu(), self.hp.dataset, n_clusters=200)  # 聚类生成
+        # gen_npy(enc_word.mean(dim=1).cpu(), self.hp.dataset, n_clusters=50) 
+        # gen_npy(enc_word.mean(dim=1).cpu(), self.hp.dataset, n_clusters=100)  
+        # gen_npy(enc_word.mean(dim=1).cpu(), self.hp.dataset, n_clusters=200)  
         text_trans = enc_word.transpose(0, 1)  # torch.Size([50, 32, 768]) (seq_len, batch_size,emb_size)
 
         # 1. 三个模态 分别去偏
