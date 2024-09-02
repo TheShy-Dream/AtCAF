@@ -1,6 +1,6 @@
 # AtCAF
 
-The code is related to the paper: AtCAF: Attention-based causality-aware fusion network formultimodal sentiment analysis.
+The code is related to the paper: AtCAF: Attention-based causality-aware fusion network for multimodal sentiment analysis.
 
 ## Datasets
 
