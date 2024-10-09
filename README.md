@@ -12,7 +12,13 @@ You can download the ood version of  CMU-MOSI and CMU-MOSEI datasets in https://
 
 ## Preparation
 
-In order to perfectly replicate the precision, please use these functions from `model.py` to generate the global dictionary initialization as an .npy file and place it in the npy_folder.
+Create a folder named `npy_folder` in the root directory.
+
+```
+mkdir npy_folder
+```
+
+In order to perfectly replicate the precision, please use these functions from `model.py` to generate the global dictionary initialization as an .npy file and place it in the `npy_folder`.
 
 ```
 gen_npy(enc_word.mean(dim=1).cpu(), self.hp.dataset, n_clusters=25)
