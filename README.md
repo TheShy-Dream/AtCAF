@@ -27,6 +27,8 @@ gen_npy(enc_word.mean(dim=1).cpu(), self.hp.dataset, n_clusters=100)
 gen_npy(enc_word.mean(dim=1).cpu(), self.hp.dataset, n_clusters=200)  
 ```
 
+Alternatively, you can also use our pre-generated `.npy` files directly in the `npy_folder` directory.  
+
 ## Training
 
 ```
